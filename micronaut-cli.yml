@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.am.study.micronaut
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, gradle, http-client, jackson-databind, jib, junit, kotlin, kotlin-application, kotlin-build, management, micrometer, micrometer-prometheus, micronaut-build, mockito, netty-server, readme, shade, slf4j-simple, yaml]

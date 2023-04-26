@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: micronautstudy
+  metrics:
+    enabled: true
+    export:
+      prometheus:
+        enabled: true
+        descriptions: true
+        step: PT1M
+  server:
+    port: 8084
+netty:
+  default:
+    allocator:
+      max-order: 3
+endpoints:
+  prometheus:
+    sensitive: false
